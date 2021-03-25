@@ -246,14 +246,16 @@ int main()
     int temps[30];
     int m = 15;
     inputTemps(temps, m);
-    // displayTemps(temps, m);
-    // displayPeaks(temps, m);
-    // displayFlat(temps, m);
+    displayTemps(temps, m);
+    displayPeaks(temps, m);
+    displayFlat(temps, m);
 
-    displayMinusTemps(temps, m);
-    displayCountMaxTemps(temps, m);
+    // displayMinusTemps(temps, m);
+    // displayCountMaxTemps(temps, m);
 
     return 0;
 }
 
 //11 12 13 -11 11 11 11 10 -9 -13 13 11 16 14 -15
+
+// 11 12 13 11 11 11 11 10 9 13 13 11 16 14 15

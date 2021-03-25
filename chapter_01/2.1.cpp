@@ -9,7 +9,7 @@
 
 #include <iostream>
 #include <iomanip>
-// #include <stdio.h>
+#include <stdio.h>
 using namespace std;
 
 int main()
@@ -95,6 +95,9 @@ int main()
         }
     }
 
+    // change_star(result, 81, 9);
+    // output_star(result, 81);
+
     return 0;
 }
 
@@ -141,10 +144,12 @@ void change_star(int a[100], int n, int m)
 void output_star(int a[100], int n)
 {
     int i, k;
-    for (i = 0, k = 0; i < n; i++)
+    k = 0;
+    for (i = 0; i < n; i++)
     {
         // printf("%2.c ", a[i]);
         cout << setw(2) << char(a[i]) << " ";
+        // cout << setw(2) << a[i] << " ";
         k++;
 
         if (k % 9 == 0)
