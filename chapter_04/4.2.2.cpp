@@ -169,13 +169,13 @@ int main()
     player.ejectCD(); //打印：弹出了周杰伦的CD......
 
     /* 另造一张CD，歌手和歌的录入省略。*/
-    string name2;
-    string songs2[6]= {"hah", "sddsd", "sada", "suui", "dddd", "11123"};
-    name2 = "ello";
+    // string name2;
+    // string songs2[6]= {"hah", "sddsd", "sada", "suui", "dddd", "11123"};
+    // name2 = "ello";
     
-    CD cd2(name2, songs2);
-    player.insertCD(&cd2);
-    player.play();
+    // CD cd2(name2, songs2);
+    // player.insertCD(&cd2);
+    // player.play();
 
     return 0;
 }
