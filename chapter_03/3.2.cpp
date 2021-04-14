@@ -230,10 +230,9 @@ int Date::daysTo(int year2, int month2, int day2)
         day2 += 365 - day;
     }
 
-    year = yt;
+    year = yt;  
     month = mt;
     day = dt;
-
     if (t == 0)
     {
         return day2;
