@@ -105,7 +105,6 @@ int main()
 
     // Commodity ite[2]={Commodity("null", 0,0), Commodity("null", 0,0)};
     Commodity ite[20];
-
     Cart myCart(ite);
     // 将商品添加到购物车
     myCart.addItem(tShirt);
