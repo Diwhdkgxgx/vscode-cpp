@@ -4,6 +4,7 @@
     "tasks": [{
         "label": "Compile", // 任务名称，与launch.json的preLaunchTask相对应
         "command": "clang++",   // 要使用的编译器，C++用g++
+        // "command": "g++",   // 要使用的编译器，C++用g++
         "args": [
             //"-g",    // 生成和调试有关的信息
             "${file}",
