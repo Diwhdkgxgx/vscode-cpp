@@ -204,6 +204,7 @@ bool Date::operator<(const Date &date2)
     } 
 }
 
+
 int main()
 {
     Date t1(1969, 8, 11);
